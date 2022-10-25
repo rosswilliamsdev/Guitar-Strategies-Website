@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width, initial-scale=1">
+    <title>Guitar Lessons Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <header id="navbar">
+        <img id="logo" class="logo" src="/Users/rosswilliams/Desktop/Guitar Files/Guitar Strategies/GS Logo transparent.png">
+    </header>
+    <h1>This is how you play guitar</h1>
+</html>
