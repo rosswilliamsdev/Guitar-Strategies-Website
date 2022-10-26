@@ -2,10 +2,43 @@
 <html lang="en">
     <meta charset="utf-8">
     <meta name="viewport" width="device-width, initial-scale=1">
-    <title>Guitar Lessons Homepage</title>
+    <title>Guitar Strategies</title>
     <link rel="stylesheet" href="styles.css">
-    <header id="navbar">
-        <img id="logo" class="logo" src="/Users/rosswilliams/Desktop/Guitar Files/Guitar Strategies/GS Logo transparent.png">
+    <header class="header">
+        <img id="logo" class="logo" src="/Users/rosswilliams/Desktop/Guitar Files/Guitar Strategies/GS Logo SMALL transparent.png">
+        <h1>This is how you play guitar</h1>
     </header>
-    <h1>This is how you play guitar</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a>About</a></li>
+            <li><a>Lessons</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Music</a></li>
+            <li><a>Credits</a></li>
+            <li><a>Recommendations</a></li>
+            <li><a>Reading List</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </nav>
+    <body>
+        <p>Whether you're learning guitar for the first time or an experienced musician, the strategies and information presented here will increase your skill level and knowledge base.
+        The only conditions are consistency and attention to detail. Let's define what this means:</p>
+        <p>Consistency is:</p>
+            <ul>
+                <li>Playing the same things</li>
+                <li>The same way</li>
+                <li>Everytime you play</li>
+            </ul>
+        <p>Attention to detail is:</p>
+            <ul>
+                <li>Playing the right notes</li>
+                <li>articulations</li>
+                <li>and rhythms</li>
+                <li>with the right fingerings</li>
+                <li>in the right position</li>
+            </ul>
+        <p>As you grow as a musician, your listening skills will improve dramatically. You'll hear every sound around you, not just music, with more clarity.
+            Consider it your calling to express these new levels of detail on your instrument. Never settle for less!</p>
+    </body>
+
 </html>

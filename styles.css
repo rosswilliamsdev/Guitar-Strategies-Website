@@ -1,3 +1,18 @@
-* {
+header, nav {
     font-family: Rexton Light, sans-serif;
+}
+p, #consistency, #attention_to_detail {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 500px;
+}
+.logo {
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    justify-content: left;
 }
