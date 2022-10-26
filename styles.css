@@ -1,10 +1,3 @@
-header, nav {
-    font-family: Rexton Light, sans-serif;
-}
-p, #consistency, #attention_to_detail {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 350px;
-}
 .logo {
     width: 300px;
     height: auto;
@@ -12,4 +5,28 @@ p, #consistency, #attention_to_detail {
 }
 h1 {
     text-align: center;
+    font-family: Rexton Light, sans-serif;
+}
+#navbar {
+    font-family: Rexton Light, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    float: left;
+    text-align: left;
+    position: sticky;
+}
+.navbar {
+    display: block;
+    width: 260px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.landing_page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    z-index: 1;
+    margin: auto;
 }
