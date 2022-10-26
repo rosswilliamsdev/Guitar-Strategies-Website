@@ -10,27 +10,27 @@
     </header>
     <nav class="navbar">
         <ul>
-            <li><a>About</a></li>
-            <li><a>Lessons</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Music</a></li>
-            <li><a>Credits</a></li>
-            <li><a>Recommendations</a></li>
-            <li><a>Reading List</a></li>
-            <li><a>Contact</a></li>
+            <li class="about"><a>About</a></li>
+            <li class="lessons"><a>Lessons</a></li>
+            <li class="blog"><a>Blog</a></li>
+            <li class="music"><a>Music</a></li>
+            <li class="credits"><a>Credits</a></li>
+            <li class="recommendations"><a>Recommendations</a></li>
+            <li class="reading_list"><a>Reading List</a></li>
+            <li class="contact"><a>Contact</a></li>
         </ul>
     </nav>
     <body>
         <p>Whether you're learning guitar for the first time or an experienced musician, the strategies and information presented here will increase your skill level and knowledge base.
         The only conditions are consistency and attention to detail. Let's define what this means:</p>
         <p>Consistency is:</p>
-            <ul>
+            <ul id="consistency">
                 <li>Playing the same things</li>
                 <li>The same way</li>
                 <li>Everytime you play</li>
             </ul>
         <p>Attention to detail is:</p>
-            <ul>
+            <ul id="attention_to_detail">
                 <li>Playing the right notes</li>
                 <li>articulations</li>
                 <li>and rhythms</li>
@@ -38,7 +38,7 @@
                 <li>in the right position</li>
             </ul>
         <p>As you grow as a musician, your listening skills will improve dramatically. You'll hear every sound around you, not just music, with more clarity.
-            Consider it your calling to express these new levels of detail on your instrument. Never settle for less!</p>
+            Consider it a calling to express these new levels of detail on your instrument. Never settle for less!</p>
     </body>
 
 </html>
