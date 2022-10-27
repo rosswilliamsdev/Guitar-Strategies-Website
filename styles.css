@@ -1,9 +1,14 @@
-.logo {
+h1 {
+    display: inline-block;
+}
+#logo {
     width: 300px;
     height: auto;
     position: relative;
+    margin:auto;
+    z-index: -1;
 }
-h1 {
+#headline {
     text-align: center;
     font-family: Rexton Light, sans-serif;
 }
@@ -29,4 +34,7 @@ h1 {
     position: relative;
     z-index: 1;
     margin: auto;
+}
+#consistency, #attention_to_detail {
+    margin-left: 300px;
 }
