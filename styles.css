@@ -8,7 +8,7 @@ h1 {
     margin:auto;
     z-index: -1;
 }
-#headline, #about_headline {
+.headline {
     text-align: center;
     font-family: Rexton Light, sans-serif;
 }
@@ -35,6 +35,6 @@ h1 {
     z-index: 1;
     margin: auto;
 }
-#consistency, #attention_to_detail {
+.bullet_points  {
     margin-left: 300px;
 }
