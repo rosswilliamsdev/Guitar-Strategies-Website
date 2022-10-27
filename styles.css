@@ -8,7 +8,7 @@ h1 {
     margin:auto;
     z-index: -1;
 }
-#headline {
+#headline, #about_headline {
     text-align: center;
     font-family: Rexton Light, sans-serif;
 }
