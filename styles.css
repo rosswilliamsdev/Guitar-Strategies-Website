@@ -38,3 +38,6 @@ h1 {
 .bullet_points  {
     margin-left: 300px;
 }
+.blog_post, .blog_title {
+    margin-left: 300px;
+}
