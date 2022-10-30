@@ -12,6 +12,8 @@ h1 {
     text-align: center;
     font-family: Rexton Light, sans-serif;
 }
+
+/* NAVBAR FORMATTING */
 #navbar {
     font-family: Rexton Light, sans-serif;
     list-style-type: none;
@@ -29,15 +31,26 @@ h1 {
     border: 1px solid black;
     padding: 10px;
 }
-.landing_page {
+/* INDEX PAGE FORMATTING */
+.index {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     z-index: 1;
     margin: auto;
 }
-.bullet_points  {
+/* BLOG PAGE FORMATTING */
+.blog_post, .blog_title, .bullet_points {
+    display: flex;
+    align-content:flex-start;
+    flex-flow: row wrap;
     margin-left: 300px;
 }
-.blog_post, .blog_title {
-    margin-left: 300px;
+.blog_title {
+    font-family: Rexton Light, sans-serif;
+}
+.blog_post {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bullet_points {
+    padding: 10px;
 }
