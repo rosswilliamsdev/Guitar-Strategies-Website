@@ -38,17 +38,18 @@ h1 {
     z-index: 1;
     margin: auto;
 }
+/* ABOUT PAGE */
+.educational_background, .about_subheader, .about_title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* BLOG PAGE FORMATTING */
-.blog_post, .blog_title, .blog_subheading {
+.blog_post, .blog_title, .blog_subheader {
     display: flex;
     align-content:flex-start;
     flex-flow: row wrap;
     margin-left: 300px;
 }
-.blog_title {
-    font-family: Rexton Light, sans-serif;
-}
-.blog_post {
+.blog_title, .blog_post, .bullet_points, .blog_subheader {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bullet_points {
