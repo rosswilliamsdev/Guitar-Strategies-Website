@@ -34,16 +34,15 @@ h1 {
 /* INDEX PAGE FORMATTING */
 .index {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    z-index: 1;
-    margin: auto;
+    display:block;
+    margin-left: 300px;
 }
 /* ABOUT PAGE */
 .educational_background, .about_subheader, .about_title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* BLOG PAGE FORMATTING */
-.blog_post, .blog_title, .blog_subheader {
+article {
     display: flex;
     align-content:flex-start;
     flex-flow: row wrap;
@@ -53,7 +52,6 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bullet_points {
-    margin-left: 300px;
     padding: 10px;
     flex-wrap: wrap;
 }
