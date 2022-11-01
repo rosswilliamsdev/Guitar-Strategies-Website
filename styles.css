@@ -1,6 +1,10 @@
 h1 {
     display: inline-block;
 }
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 #logo {
     width: 300px;
     height: auto;
@@ -43,7 +47,7 @@ h1 {
 }
 /* BLOG PAGE FORMATTING */
 article {
-    display: flex;
+    display: block;
     align-content:flex-start;
     flex-flow: row wrap;
     margin-left: 300px;
@@ -52,6 +56,5 @@ article {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bullet_points {
-    padding: 10px;
     flex-wrap: wrap;
 }
