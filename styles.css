@@ -52,9 +52,9 @@ article {
     flex-flow: row wrap;
     margin-left: 300px;
 }
-.blog_title, .blog_post, .bullet_points, .blog_subheader {
+.blog_title, .blog_post, .about_bullet_points, .blog_subheader {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.bullet_points {
-    flex-wrap: wrap;
+.about_bullet_points {
+    margin-left: 300px;
 }
