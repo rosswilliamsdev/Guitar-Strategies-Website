@@ -1,3 +1,6 @@
+* {
+    background-color: #F9F6EE !important;
+}
 h1 {
     display: inline-block;
 }
@@ -10,7 +13,7 @@ h2 {
     height: auto;
     position: relative;
     margin:auto;
-    z-index: -1;
+    z-index: 1;
 }
 .headline {
     text-align: center;
@@ -57,4 +60,15 @@ article {
 }
 .about_bullet_points {
     margin-left: 300px;
+}
+
+/* MUSIC PAGE FORMATTING */
+.p-music {
+    display: flex;
+    position:relative;
+    flex-flow: row wrap;
+    margin-left: 300px;
+}
+.youtube {
+float:right;
 }
