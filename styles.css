@@ -1,20 +1,25 @@
 * {
-    background-color: #F9F6EE !important;
+    background-color: #F9F6EE;
 }
+
 h1 {
     display: inline-block;
 }
+
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
 #logo {
     width: 300px;
     height: auto;
     position: relative;
-    margin:auto;
-    z-index: 1;
+    margin: auto 0 0 0;
+    background-color: black;
+    border-radius: 4%;
 }
+
 .headline {
     text-align: center;
     font-family: Rexton Light, sans-serif;
@@ -31,6 +36,7 @@ h2 {
     text-align: left;
     position: sticky;
 }
+
 .navbar {
     display: block;
     width: 260px;
@@ -38,26 +44,36 @@ h2 {
     border: 1px solid black;
     padding: 10px;
 }
+
 /* INDEX PAGE FORMATTING */
 .index {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display:block;
+    display: block;
     margin-left: 300px;
 }
+
 /* ABOUT PAGE */
-.educational_background, .about_subheader, .about_title {
+.educational_background,
+.about_subheader,
+.about_title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* BLOG PAGE FORMATTING */
 article {
     display: block;
-    align-content:flex-start;
+    align-content: flex-start;
     flex-flow: row wrap;
     margin-left: 300px;
 }
-.blog_title, .blog_post, .about_bullet_points, .blog_subheader {
+
+.blog_title,
+.blog_post,
+.about_bullet_points,
+.blog_subheader {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .about_bullet_points {
     margin-left: 300px;
 }
@@ -65,10 +81,11 @@ article {
 /* MUSIC PAGE FORMATTING */
 .p-music {
     display: flex;
-    position:relative;
+    position: relative;
     flex-flow: row wrap;
     margin-left: 300px;
 }
+
 .youtube {
-float:right;
+    float: right;
 }
