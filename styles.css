@@ -2,8 +2,10 @@
     background-color: #F9F6EE;
 }
 
-h1 {
-    display: inline-block;
+header {
+    display: block;
+    background-color: black;
+    width: 100%;
 }
 
 h2 {
@@ -12,15 +14,16 @@ h2 {
 }
 
 #logo {
+    display: flex;
     width: 300px;
     height: auto;
-    position: relative;
-    margin: auto 0 0 0;
+    margin-left: 575px;
     background-color: black;
     border-radius: 4%;
 }
 
 .headline {
+    position: relative;
     text-align: center;
     font-family: Rexton Light, sans-serif;
 }
