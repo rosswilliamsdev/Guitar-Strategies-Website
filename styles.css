@@ -28,6 +28,10 @@ h2 {
     font-family: Rexton Light, sans-serif;
 }
 
+iframe {
+    display: block;
+}
+
 /* NAVBAR FORMATTING */
 #navbar {
     font-family: Rexton Light, sans-serif;
