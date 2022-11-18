@@ -32,6 +32,10 @@ iframe {
     display: block;
 }
 
+section {
+    margin-left: 300px;
+}
+
 /* NAVBAR FORMATTING */
 #navbar {
     font-family: Rexton Light, sans-serif;
@@ -86,12 +90,6 @@ article {
 }
 
 /* MUSIC PAGE FORMATTING */
-.p-music {
-    display: flex;
-    position: relative;
-    flex-flow: row wrap;
-    margin-left: 300px;
-}
 
 .youtube {
     float: right;
