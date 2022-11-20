@@ -70,6 +70,8 @@ section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 /* BLOG PAGE FORMATTING */
 article {
     display: block;
@@ -85,9 +87,6 @@ article {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.about_bullet_points {
-    margin-left: 300px;
-}
 
 /* MUSIC PAGE FORMATTING */
 
