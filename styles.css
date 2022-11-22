@@ -1,5 +1,7 @@
-* {
-    background-color: #F9F6EE;
+html {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gainsboro;
 }
 
 
@@ -7,11 +9,6 @@ header {
     display: block;
     background-color: black;
     width: 100%;
-}
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 #logo {
@@ -37,6 +34,7 @@ section {
     margin-left: 300px;
 }
 
+
 /* NAVBAR FORMATTING */
 #navbar {
     font-family: Rexton Light, sans-serif;
@@ -47,6 +45,10 @@ section {
     float: left;
     position: fixed;
     top: 130px;
+}
+
+#navbar a {
+    color: gainsboro;
 }
 
 .navbar {
@@ -61,18 +63,11 @@ section {
 
 /* INDEX PAGE FORMATTING */
 .index {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: block;
     margin-left: 300px;
 }
 
 /* ABOUT PAGE */
-.educational_background,
-.about_subheader,
-.about_title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 
 
 /* BLOG PAGE FORMATTING */
@@ -80,13 +75,6 @@ article {
     display: block;
     align-content: flex-start;
     flex-flow: row wrap;
-}
-
-.blog_title,
-.blog_post,
-.about_bullet_points,
-.blog_subheader {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
