@@ -34,7 +34,6 @@ section {
     margin-left: 300px;
 }
 
-
 /* NAVBAR FORMATTING */
 #navbar {
     font-family: Rexton Light, sans-serif;
@@ -56,9 +55,7 @@ section {
     display: block;
     width: 260px;
     margin: 10px;
-    border: 1px solid black;
     padding: 10px 3px;
-    border-radius: 4px;
 }
 
 
@@ -83,4 +80,8 @@ article {
 
 .youtube {
     float: right;
+}
+
+.links a {
+    color: white;
 }
